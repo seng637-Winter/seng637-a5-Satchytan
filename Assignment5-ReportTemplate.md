@@ -33,7 +33,7 @@
 
 ![F_models_top2_RGT.JPG](https://github.com/seng637-Winter/seng637-a5-Satchytan/blob/main/Screenshots/F_models_top2_RGT.JPG "F_models_top2_RGT.JPG")
 
-## Select a set of models that would provide the best fit for the project data using model ranking
+## Selection of Top 2 Models to Provide Best Fit
 
 After analyzing the provided failure data and comparing various models with different covariates, our team identified Discrete Weibull (DW3) and Geometric (GM) models as the best fit for the project data using model ranking.
 
@@ -49,7 +49,7 @@ We used the following models for our comparison, IFR generalized Salvia & Bollin
 | Negative Binomial (Order 2) {NB2}           | F         | 152.626   | 156.928   |
 | Truncated Logistic {TL}                     | F         | 127.323   | 133.059   |
 
-## Select the range of useful data using Laplace or other tests
+## Selection of Range of Useful Data
 
 To determine the range of useful data for analysis, we conducted a visual inspection of the cumulative plot of failures over time. Upon examination, we observed that the initial time intervals exhibited a steep increase in failure count, indicating an 'infant mortality' phase where failure rates were high. This phase is typically associated with initial system setup, calibration, or early testing stages, where failures are more common due to initial defects or adjustments.
 
@@ -57,7 +57,7 @@ After interval 4, the plot displayed a more gradual increase in failure count, s
 
 Therefore, we determined that the range of useful data for model fitting begins after interval 4. We excluded the initial 'infant mortality' phase and focused on the subsequent intervals where the system's performance stabilized. This approach ensures that our analysis captures data points that are representative of the system's reliability under typical operating conditions, leading to more accurate model selection and interpretation.
 
-## Discuss the acceptable range of failure rate for the test data
+## Discussion of Acceptable Range of Failure Rate
 
 In assessing the acceptable range of failure rate for the provided test data, several factors must be considered, including project requirements, safety standards, and industry norms.
 
